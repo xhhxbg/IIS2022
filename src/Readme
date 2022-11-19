@@ -1,0 +1,15 @@
+这是一道PWN题。
+附件说明：
+-  bigwork   : 这是个ELF文件（linux下的可执行文件）。
+-  bigwork.c : 这是ELF文件的源码。
+
+
+任务：找出bigwork存在的软件漏洞，并写出对应的利用脚本。可根据多种不同的漏洞，编写多种利用脚本，也可针对一种漏洞，编写多种利用方式不同的脚本。利用脚本的最终目的是，执行代码 ---- system('/bin/sh') 。提交的报告中，要详细阐述漏洞产生的原因，漏洞的原理，你使用的攻击的方法等，以图文并茂的方式最好。
+
+有其他问题欢迎与助教（余泽）联系，助教在钉钉群里，也可以加助教的vx：diyiez。
+
+需要使用到的工具有（IDA、Pwntools、Python）
+
+IDA的网盘链接：链接: https://pan.baidu.com/s/1Czlhi_4RnTSCetHKKIc3Aw 提取码: m26j 
+
+可参考网站：https://ctf-wiki.org/pwn/linux/user-mode/stackoverflow/x86/stack-intro/
