@@ -20,4 +20,9 @@ ROPgadget --binary bigwork --only "pop|ret" | grep "rax"
 
 # Method 4 ret2libc
 https://cooprint systeml-y.github.io/2019/07/16/linux-pwn-32/
+https://blog.csdn.net/Morphy_Amo/article/details/121845113
+https://m-ouse.github.io/post/pwn-ret2libc-system%E8%B0%83%E7%94%A8%E5%A4%B1%E8%B4%A5%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/
+GOT表劫持：https://blog.csdn.net/Morphy_Amo/article/details/121956338
 ROPgadget --binary ../src/bigwork --string '/bin/sh'
+
+# Method 5 ret2csu
